@@ -1,0 +1,400 @@
+
+
+
+
+/***********************************************banner section start here**/
+.background-pattern
+{
+  background-image: url("../images/shapes-bg.png");
+}
+
+  .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+.owl-nav button:focus {
+    outline: none;
+}
+.banner img
+{
+  width: 100%;
+  /*height: 770px;*/
+  height:345px;
+}
+
+.banner .banner-text
+{
+  position: absolute;
+  top: 15%;
+  color: var(--color-white);
+  width: 79%;
+  left: 3%;
+}
+
+.banner .banner-text h1
+{
+  font-weight: bolder;
+  font-size: 1rem;
+  line-height: 34px;
+}
+
+.banner .banner-text p
+{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.banner .banner-text span
+{   
+  color: var(--dark-red);
+  background-color: var(--color-grey-1);
+  padding: .2rem;
+  font-size: 1.4rem;
+}
+
+/****************************************************banner section end here******************************************/
+
+
+
+/********************************Planning to go Canada section start here*/
+.planning-to-go-canada-sec
+{
+  background-color: var(--color-white);
+  padding: 2rem 0rem;
+}
+.planning-to-go-canada-sec h2
+{
+  color:var(--dark-red);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.planning-to-go-canada-sec p 
+{
+  color: var(--color-black);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5em;
+  margin-bottom: 0rem;
+}
+
+.planning-to-go-canada-sec h4
+{
+  color:var(--color-black);
+  text-align: center;
+  font-size: 1rem;
+}
+
+/**************************************Planning to go Canada section end here******************************************/
+
+/*************************************Our Experience ? and Why us ? section start here*/
+.our-experience-sec
+{
+  background-color: var(--color-red-1);
+  padding:2rem 0rem;
+}
+.our-experience-sec h2
+{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color:var(--color-white);
+  font-weight: 600;
+}
+.our-experience-sec p
+{
+  color:var(--color-grey);
+  margin-bottom: 3rem;
+}
+
+
+/**********************************************************Our Experience ? and Why us ? section end here******************************************/
+
+
+/*************************************************How We Can Help You?  section start here*/
+.tab-sec
+{
+  padding:2rem 0rem;
+}
+.tab-sec h2
+{
+  color:var(--dark-red);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.tab-sec p
+{
+  color:var(--color-black);
+}
+.tab-sec-child
+{
+  border: 10px solid var(--color-red-1);
+} 
+
+.left-sec .nav-pills .nav-item .nav-link
+{    
+  padding: 15px 0px;
+  border-bottom: 4px solid var(--color-grey);
+  border-radius: 0;
+  font-weight: normal;
+  transition:1s ease all;
+  font-size: 1.2rem;
+}
+
+.left-sec .nav-pills .nav-item:last-child .nav-link
+{border-bottom: 0px;}
+.left-sec .nav-item a.nav-link:hover
+{ 
+  color:var(--color-black);
+  /*padding: 2px 0px 2px 2px;*/
+}
+
+.left-sec ul li
+{
+  padding: 5px 15px;
+}
+
+.left-sec
+{
+  background-color: var(--color-red-1);
+  height: 100%;
+  border-right: 3px solid var(--color-red-1);
+}
+.left-sec ul
+{
+  position: relative;
+}
+
+.left-sec ul li a
+{
+  font-size: 14px;
+  color: var(--color-white);
+  font-weight: bold;
+}
+.tab-sec .nav-pills .nav-link.active, .nav-pills .show>.nav-link 
+{
+  color: var(--color-white);
+  background-color:rgb(210, 38, 26); 
+}
+.tab-sec .nav-pills .nav-link{position: relative;}
+.tab-sec .nav-pills .nav-link.active:after 
+{
+  /*content: "\f061"; */
+  content:"\f063";
+  position: absolute; 
+  font-family: FontAwesome; 
+  right: 0;
+}
+.right-sec
+{
+  padding: 1rem;
+  height: 100%;
+}
+
+a[class= nav-link]:target ~ .right-sec{
+  -webkit-transform: translateY( -50px );
+  transform: translateY( -50px );
+}
+
+/****************************************How We Can Help You? section end here******************************************/
+
+
+
+
+/***************************************Case Specifics Services section start here*/
+
+.case-specifics-sec
+{
+  background-color: rgb(230, 230, 230);
+  padding: 2rem 0rem;
+}
+.case-specifics-sec h2
+{
+  color:var(--dark-red);
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.case-specifics-sec p
+{
+  color:var(--color-black);
+  text-align: center;
+}
+/***********************************Case Specifics Services section end here******************************************/
+
+
+
+
+@media only screen and (min-width: 480px)
+{
+  .banner .banner-text h1 
+  {
+    font-size: 1.3rem;
+    line-height: 35px;
+  }
+}
+
+
+@media only screen and (min-width: 576px)
+{
+ 
+  .banner .banner-text h1 
+  {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+
+  .our-experience-sec h2 
+  {
+    font-size: 1rem;
+  }
+  
+}
+
+@media only screen and (min-width: 992px)
+{
+  .planning-to-go-canada-sec,.our-experience-sec,.tab-sec,.case-specifics-sec 
+  {
+    padding: 4rem 0rem 4rem 0rem;
+  }
+
+  .planning-to-go-canada-sec h2,.tab-sec h2,.case-specifics-sec h2,.our-experience-sec h2
+  {
+    font-size: 1.5rem;
+  }
+
+  .planning-to-go-canada-sec p
+  {
+    font-size: 1.5rem;
+  }
+
+  .banner .banner-text h1 
+  {
+    font-size: 2.4rem;
+    line-height: 72px;
+  }
+
+  .banner .banner-text span 
+  {
+    font-size: 2rem;
+  }
+
+  .tab-sec .nav-pills .nav-link.active:after 
+  {
+     content: "\f061"; 
+  }
+
+}
+
+@media only screen and (min-width: 1200px)
+{
+  .left-sec .nav-pills .nav-item .nav-link 
+  {
+    padding: 25px 0px;
+    font-size: 1.5rem;
+  }
+
+  .planning-to-go-canada-sec h2, .tab-sec h2, .case-specifics-sec h2,  .our-experience-sec h2 
+  {
+    font-size: 2rem;
+  }
+
+  .planning-to-go-canada-sec h2
+  {
+    margin-bottom: 2rem;
+  }
+
+  .banner .banner-text p
+  {
+    font-size: 26px;
+  }
+
+  .banner img 
+  {
+    height: 458px;
+  }
+  
+  .banner .banner-text
+  {
+    top: 24%;
+  }
+ 
+}
+
+
+@media only screen and (min-width: 1366px)
+{
+  .banner .banner-text 
+  {
+    width: 48%;
+    top: 27%;
+  }
+}
+
+@media only screen and (min-width: 1920px)
+{
+  
+  .banner img 
+  {
+    width: 100%;
+    height: 580px;
+  }
+
+  .left-sec .nav-pills .nav-item .nav-link 
+  {
+    padding: -7px 0px;
+    font-size: 1.2rem; 
+  }
+
+  .tab-sec-child 
+  {
+    height: 375px;
+  }
+}
+
+
+
+
