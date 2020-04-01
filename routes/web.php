@@ -11,7 +11,15 @@
 |
 */
 
+use Spatie\Sitemap\SitemapGenerator;
+
 Route::match(['get','post'],'/', 'HomeController@index');
+
+
+Route::get('sitemap', function(){
+    SitemapGenerator::create('http://http://localhost/coronainindia/')->writeToFile('sitemap.xml');
+    return 'sitemap created';
+});
 
 
 /*--------------- Website Url ------------------------*/
